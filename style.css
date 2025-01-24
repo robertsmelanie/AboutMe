@@ -4,8 +4,26 @@ body {
 h1 {
   background-color: aliceblue;
   text-align: center;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+  font-size: large;
 }
 div {
   background-color: lightblue;
   text-align: center;
+}
+li {
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  font-weight: 200;
+}
+img {
+  max-width: 150px;
+  max-height: 100%;
+}
+.picture {
+  border-radius: 50%;
+  border: 5px solid black;
 }
