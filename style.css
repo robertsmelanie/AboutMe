@@ -1,5 +1,4 @@
 body {
-  
   align-items: center;
   text-align: center;
 
@@ -23,6 +22,13 @@ li {
   font-size: large;
   font-weight: 200;
 }
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 50%;
+  text-align: center;
+}
 img {
   max-width: 150px;
   max-height: 100%;
@@ -30,8 +36,8 @@ img {
 /* Between here and other are testing */
 /* General card container styling */
 .flip-card {
-  display: grid
-  width: 200px;
+  /* display: grid
+   width: 200px; */
   height: 150px;
   perspective: 1000px;
   margin: 10px;
