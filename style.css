@@ -113,35 +113,30 @@ img {
   border-radius: 50%;
   border: 5px solid black;
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   body {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
-
-
   ul {
     list-style-type: none;
     padding: 0; /* Removes left padding */
     margin: 0; /* Adjusts spacing */
     width: 100%;
-    }
+  }
     /* Show "Tap" and hide "Click" on small screens */
-@media (max-width: 600px) {
-    .small-screen {
-        display: inline;
-    }
-    .large-screen {
-        display: none;
-    }
-}
-
+/* @media (max-width: 600px) { */
+  .small-screen {
+      display: inline;
+  }
+  .large-screen {
+      display: none;
+  }
 /* Style for visibility */
-#actionText {
-    font-size: 24px;
-    font-weight: bold;
-}
+  #actionText {
+      font-size: 24px;
+      font-weight: bold;
+  }
 }
