@@ -96,13 +96,14 @@ img {
   justify-content: center;
   border: 1px solid #ccc;
   border-radius: 10px;
+  font-size: larger;
+  font-weight: 600;
 }
 
 /* Front face specific styling */
 .flip-card-front {
   background-color: #f0f0f0;
-  font-size: larger;
-  font-weight: 600;
+ 
 }
 
 /* Back face specific styling */
