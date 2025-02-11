@@ -2,7 +2,8 @@ body {
   align-items: center;
   text-align: center;
 
-  background-color: steelblue;
+  /* background-color: steelblue; */
+  background-color: #384B70;
 }
 h1 {
   background-color: aliceblue;
@@ -14,7 +15,8 @@ a {
   font-size: x-large;
 }
 div {
-  background-color: lightblue;
+  /* background-color: lightblue; */
+  background-color: #EAE3D1;
   text-align: center;
 }
 
