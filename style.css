@@ -49,6 +49,11 @@ img {
   max-width: 150px;
   max-height: 100%;
 }
+#actionText {
+    font-size: 24px;
+    font-weight: bold;
+    color: antiquewhite;
+}
 .small-screen {
     display: none; /* Hide "Tap" by default */
 }
@@ -96,6 +101,8 @@ img {
 /* Front face specific styling */
 .flip-card-front {
   background-color: #f0f0f0;
+  font-size: larger;
+  font-weight: 600;
 }
 
 /* Back face specific styling */
@@ -136,9 +143,5 @@ img {
   .large-screen {
       display: none;
   }
-/* Style for visibility */
-  #actionText {
-      font-size: 24px;
-      font-weight: bold;
-  }
+
 }
